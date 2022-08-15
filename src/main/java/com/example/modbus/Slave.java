@@ -62,10 +62,6 @@ public class Slave {
         return requestHandler.getWritingCoils();
     }
 
-    public void stop() {
-        slave.shutdown();
-    }
-
     public int getCountOfWritingCoils() {
         return countOfWritingCoils;
     }
